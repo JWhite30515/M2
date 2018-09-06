@@ -2,8 +2,6 @@ defaultTasks 'jar'
 apply plugin: 'java'
 
 dependencies {
-    // compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
-    // testCompile group: 'junit', name: 'junit', version: '4.+'
     compile files('lib/resources.jar')
 }
 
@@ -13,9 +11,3 @@ jar {
                     "Class-Path" : "../../lib/resources.jar")
     }
 }
-
-
-
-//repositories {
-//    mavenCentral()
-//}
