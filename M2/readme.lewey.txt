@@ -1,2 +1,2 @@
 Lewey Wilson
-Lwilson67@gmail.com
+Lwilson67@gatech.edu
