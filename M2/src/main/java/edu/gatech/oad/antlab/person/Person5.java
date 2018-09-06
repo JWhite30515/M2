@@ -33,7 +33,7 @@ public class Person5 {
 	  //Person 5 put your implementation here
 	  char firstLetter = input.charAt(0);
 	  char secondLetter = input.charAt(1);
-	  String result = input.subtring(2, input.length())
+	  String result = input.substring(2, input.length())
 	  + firstLetter + secondLetter;
 	  return result;
 	}

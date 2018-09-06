@@ -30,13 +30,13 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  String returnString;
+	  String returnString = "";
 
-	  for (int i = 0; i < returnString.length - 2 < i++) {
-	  	returnString += input[i + 2]
+	  for (int i = 0; i < returnString.length() - 2; i++) {
+	  	returnString += input.charAt(i + 2);
 	  }
 	  for (int i = 0; i < 2; i++) {
-	  	returnString += input[i];
+	  	returnString += input.charAt(i);
 	  }
 
 	  return returnString;
